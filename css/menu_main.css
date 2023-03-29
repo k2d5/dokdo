@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+/* font 기본설정 S*/
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    /* box-sizing: border-box; */
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #0A004E;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+/* font 기본설정 E */
+/* form 초기화 S*/
+ul,ol,li{list-style: none;}
+a{text-decoration: none; padding: 0px 10px 0px 10px;}
+
+
+/* form 초기화 E */
+/* 상단 */
+header{display: flex; height: 125px;}
+.logo-image{flex: 30%;}
+.nav{flex: 70%;}
+.logo-image,.nav{
+    height: 125px;
+    background-color: white;
+}
+#logo{padding: 5px; height: 115px;}
+.nav_ul{ 
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+#nav_menu, #nav_news, #nav_store{font-weight: 700;}
+/* 메인 */
+main{height: 1093px;}
+/* 공통사항 */
+.title{font-size: 70px; line-height: 70px;}
+.maintext{font-size: 17px;}
+.txt a{
+    font-size: 20px;
+    border-radius: 5px;
+}
+.img_ul{
+    display: flex;
+    justify-content: space-around;
+}
+.img_li p{font-size: 27px;}
+.left a,.right a{color: white;}
+.left, .right {padding: 5px 0px 5px 0px;}
+.accent{font-size: 20px;}
+
+/* 현재페이지 알림 */
+#current{
+    text-align: left;
+    padding-left: 40px;
+    border-top: 3px solid #0a004e96;
+    border-bottom: 3px solid #0a004e96;
+    line-height: 50px;
+    font-size: 25px;
+}
+/* 대표음료영역 */
+.main_type1{
+    display: flex;
+    justify-content: space-around;
+    height: 330px;
+    background-color: beige;
+}
+.main_type1 .img{padding: 10px;}
+.main_type1 .txt{padding: 90px 0px 90px 0px;}
+#link_drink{border: 2px solid #0A004E;}
+.drink{height: 250px; padding: 10px;}
+/* 음료/이벤트 영역 */
+.main_type3{display: flex;}
+.left_box,.right_box{
+    flex: 50%; 
+    height: 62px;
+    display: flex;
+    justify-content: space-around;
+}
+.left_box{
+    background-color: #6d3812;
+}
+.right_box{
+    background-color: rgba(0, 0, 128, 0.725);
+}
+.left a{font-size: 20px;}
+.right a{font-size: 18px;}
+.right_menu{padding: 0px;}
+#menu_drink_img{height: 62px;}
+/* 푸드 영역 */
+.main_type2_food{
+    height: 330px;
+    background-image: url(/images/2.menu/food_1280.jpg);
+    display: flex;
+    justify-content: space-around;
+}
+.main_type2_food *{color: #6d3812;
+    text-align: right;
+}
+.main_type2_food .img{padding: 45px 10px 45px 20px;}
+.main_type2_food .txt{padding: 50px 0px 50px 0px;}
+.main_type2_food .title{font-size: 50px;}
+.pakage{height: 250px; padding: 10px;}
+#link_menu_food{border: 2px solid #6d3812;}
+/* 상품 영역 */
+.main_type2_goods{
+    height: 330px;
+    background-image: url(/images/2.menu/goods_1280.jpg);
+    display: flex;
+    justify-content: space-around;
+}
+.main_type2_goods *{color: black;
+    text-align: left;
+}
+.main_type2_goods .img{padding: 45px 10px 45px 20px;}
+.main_type2_goods .txt{padding: 50px 0px 50px 0px;}
+.main_type2_goods .title{font-size: 50px;}
+.pakage{height: 250px; padding: 10px;}
+#link_menu_goods{border: 2px solid black;}
+/* 하단 */
+footer {
+    height: 230px;
+}
+
+.footer_top,.footer_bottom{
+    background-color: #0A004E;
+}
+.footer_top{height: 70px; padding-top: 20px;}
+#sitemap{
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.footer_bottom{
+    padding: 30px 20px 30px 20px;
+    height: 100px;
+}
+.fb_span{
+    font-size: 15px;
+    color: white;
+}

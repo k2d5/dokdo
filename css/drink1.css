@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+/* font 기본설정 S*/
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    /* box-sizing: border-box; */
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #0A004E;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+/* font 기본설정 E */
+/* form 초기화 S*/
+ul,ol,li{list-style: none;}
+a{text-decoration: none; padding: 0px 10px 0px 10px;}
+
+
+/* form 초기화 E */
+/* 상단 */
+header{display: flex; height: 125px;}
+.logo-image{flex: 30%;}
+.nav{flex: 70%;}
+.logo-image,.nav{
+    height: 125px;
+    background-color: white;
+}
+#logo{padding: 5px; height: 115px;}
+.nav_ul{ 
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+#nav_menu, #nav_news, #nav_store{font-weight: 700;}
+
+/* 메인 */
+main{height: 800px;}
+/* 공통사항 */
+
+
+/* 현재페이지 알림 */
+#current{
+    text-align: left;
+    padding-left: 40px;
+    border-top: 3px solid #0a004e96;
+    border-bottom: 3px solid #0a004e96;
+    line-height: 50px;
+    font-size: 25px;
+}
+.Nutritional_Infor{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.img{padding: 50px 20px 20px 20px;}
+.txt{padding: 50px 20px 20px 20px;}
+#one_img{
+    height: 500px;
+}
+th{ 
+    font-size: 25px;
+    font-weight: 700;
+}
+td{
+    font-size: 15px;
+}
+.eng_th{
+    padding-bottom: 10px;
+    line-height: 20px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.63);
+}
+.NI{
+    margin: 100px 20px 10px 20px;
+    width: 400px;
+}
+.intro{
+    margin: 10px 20px 10px 20px;
+    width: 400px;
+}
+td{padding: 0px 5px 0px 5px;}
+.left_td, .leftdata1, .leftdata2, .eng_th, .td_1, th{text-align: left;}
+.right_td, .rightdata1, .rightdata2{text-align: right;}
+.left_td, .right_td{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.leftdata2{border-left: 1px dotted gray ;}
+/* 하단 */
+footer {
+    height: 230px;
+}
+
+.footer_top, .footer_bottom{
+    background-color: #0A004E;
+}
+.footer_top{height: 70px; padding-top: 20px;}
+#sitemap{
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.footer_bottom{
+    padding: 30px 20px 30px 20px;
+    height: 100px;
+}
+.fb_span{
+    font-size: 15px;
+    color: white;
+}

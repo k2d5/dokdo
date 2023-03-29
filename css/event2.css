@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+/* font 기본설정 S*/
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    /* box-sizing: border-box; */
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #0A004E;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+/* font 기본설정 E */
+/* form 초기화 S*/
+ul,ol,li{list-style: none;}
+a{text-decoration: none; padding: 0px 10px 0px 10px;}
+
+
+/* form 초기화 E */
+/* 상단 */
+header{display: flex; height: 125px;}
+.logo-image{flex: 30%;}
+.nav{flex: 70%;}
+.logo-image,.nav{
+    height: 125px;
+    background-color: white;
+}
+#logo{padding: 5px; height: 115px;}
+.nav_ul{ 
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+#nav_menu, #nav_news, #nav_store{font-weight: 700;}
+/* 메인 */
+.title{
+    font-size: 70px;
+    line-height: 70px;
+}
+/* 현재페이지 알림 */
+#current{
+    text-align: left;
+    padding-left: 40px;
+    border-top: 3px solid #0a004e96;
+    border-bottom: 3px solid #0a004e96;
+    line-height: 50px;
+    font-size: 25px;
+}
+.img_event{height: 2300px;}
+.txt_event p{text-align: left; padding-left: 40px;}
+.main_type6{background-color: rgba(0, 0, 128, 0.371);}
+#event2_img{width: 1000px;}
+
+/* 하단 */
+footer {
+    height: 230px;
+}
+
+.footer_top,.footer_bottom{
+    background-color: #0A004E;
+}
+.footer_top{height: 70px; padding-top: 20px;}
+#sitemap{
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.footer_bottom{
+    padding: 30px 20px 30px 20px;
+    height: 100px;
+}
+.fb_span{
+    font-size: 15px;
+    color: white;
+}
